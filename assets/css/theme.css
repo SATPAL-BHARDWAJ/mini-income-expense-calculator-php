@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.box .col-md-3 {
+    padding: 10px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.box .row {
+    border: 1px solid gray;
+}
+
+.i-btn {
+	padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.add-income-btn, .inc-amt {
+    background: #7fffd4;
+}
+.add-expense-btn, .exp-amt {
+    background: #c4e93d;
+}
+
+
+.remove-income-btn, .remove-expense-btn {
+    background: #ef5555;
+}
+
+.inpt {
+	border: 0px;
+	border-bottom: 1px solid #b9b7b7;
+    margin: 0 10px;
+    transition: all 0.5s;
+    width: 75%;
+}
+
+.inpt:focus {
+	border-color: #100668;
+}
+
+.td-inpt {
+    border: 0px;
+}
+
